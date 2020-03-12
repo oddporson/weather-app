@@ -30,10 +30,9 @@ function App() {
             placeholder="Search..."
           />
         </div>
-        <div>
-          <div className="location-box"></div>
-            <div className="location">Vancouver, BC, Canada</div>
-            <div className="date">{dateBuilder(new Date())}</div>
+        <div className="location-box">
+          <div className="location">Vancouver, BC, Canada</div>
+          <div className="date">{dateBuilder(new Date())}</div>
         </div>
         <div className="weather-box">
           <div className="temp">
